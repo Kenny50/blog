@@ -1,4 +1,4 @@
-baseURL: "https://kenny50.github.io/Blog"
+baseURL: "https://kenny50.github.io/Blog/"
 languageCode: "en-us"
 title: "Hugo Profile yaml"
 theme: hugo-profile
