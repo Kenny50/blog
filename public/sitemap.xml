@@ -2,20 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://hugo-profile.netlify.app/tags/effective-kotlin/</loc>
     <lastmod>2024-03-26T12:46:55+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://hugo-profile.netlify.app/</loc>
     <lastmod>2024-03-26T12:46:55+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/%E8%81%B2%E6%98%8E%E9%A0%90%E6%9C%9F%E5%AE%9A%E7%BE%A9/</loc>
+    <loc>https://hugo-profile.netlify.app/tags/kotlin/</loc>
     <lastmod>2024-03-26T12:46:55+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/first-post/</loc>
+    <loc>https://hugo-profile.netlify.app/posts/</loc>
+    <lastmod>2024-03-26T12:46:55+08:00</lastmod>
+  </url><url>
+    <loc>https://hugo-profile.netlify.app/tags/</loc>
+    <lastmod>2024-03-26T12:46:55+08:00</lastmod>
+  </url><url>
+    <loc>https://hugo-profile.netlify.app/posts/%E8%81%B2%E6%98%8E%E9%A0%90%E6%9C%9F%E5%AE%9A%E7%BE%A9/</loc>
+    <lastmod>2024-03-26T12:46:55+08:00</lastmod>
+  </url><url>
+    <loc>https://hugo-profile.netlify.app/posts/first-post/</loc>
     <lastmod>2024-03-26T11:50:55+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://hugo-profile.netlify.app/categories/</loc>
   </url>
 </urlset>
