@@ -28,13 +28,15 @@
 
 
 
-<meta property="og:title" content="Categories" />
-<meta property="og:description" content="數位漂泊中" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://kenny50.github.io/Blog/categories/" /><meta property="og:site_name" content="張永翰" />
+<meta property="og:title" content="Debugging Android, how to connect to local server" />
+<meta property="og:description" content="connection between android device with local server" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kenny50.github.io/Blog/posts/debugging-android-with-local-server/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-03-26T14:01:55+08:00" />
+<meta property="article:modified_time" content="2024-03-26T14:01:55+08:00" /><meta property="og:site_name" content="張永翰" />
 
-<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Categories"/>
-<meta name="twitter:description" content="數位漂泊中"/>
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Debugging Android, how to connect to local server"/>
+<meta name="twitter:description" content="connection between android device with local server"/>
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -98,11 +100,14 @@
 </style>
 
 
-<meta name="description" content="Categories of Hugo Profile yaml">
-<link rel="stylesheet" href="/css/list.css" media="all">
+<meta name="description" content="connection between android device with local server">
+<link rel="stylesheet" href="/css/single.css">
+
+
+<script defer src="/fontawesome-6/all-6.4.2.js"></script>
 
   <title>
-Categories | Hugo Profile yaml
+Debugging Android, how to connect to local server | Hugo Profile yaml
 
   </title>
 </head>
@@ -257,17 +262,164 @@ Categories | Hugo Profile yaml
     </nav>
 </header>
 <div id="content">
-<div class="container pt-5" id="list-page">
-    <h2 class="text-center pb-2">Categories</h2>
-    <div class="row">
-        
-        <div class="row justify-content-center">
-            <div class="col-auto m-3">
-                
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">Debugging Android, how to connect to local server</h1>
+            <div class="text-center">
+              張永翰 
+              <small>|</small>
+              Mar 26, 2024
+
+              
+              <span id="readingTime">
+                min read
+              </span>
+              
             </div>
+          </div>
+          
+          <article class="page-content  p-2">
+          <p>TL;DR port is same as server defined, the key is change to ip address</p>
+<ol>
+<li>emulator — 10.0.2.2</li>
+<li>Using ip — (required same network environment) type ifconfig | grep &ldquo;inet &ldquo;| grep -v 127.0.0.1 in terminal, copy something like 192.168.0.7</li>
+<li>Port forwarding — (require usb connection) open <code>chrome://inspect/#devices</code> in chrome, check remote target detected your device, setup port forwarding like port: 9999 ipaddress and port : 127.0.0.1:9999</li>
+</ol>
+<hr>
+<h2 id="emulator--special-alias">Emulator — special alias</h2>
+<p>We have to connect to different ip while we tested our android in a different environment with a local server. Before we dive into this article, a quick discussion will be helpful. While we type localhost in chrome, we can access the network interface via loopback on the host, and the localhost is actually the name of ip 127.0.0.1 .</p>
+<p>Now we start from a simple one, an emulator, while we start an emulator, we actually create an android OS in our computer, if we use localhost or 127.0.0.1 inside the emulator, it will loopback to android itself, and find nothing. The 10.0.2.2 is a preserved ip special alias to your host loopback interface(127.0.0.1 on your development machine) .</p>
+<hr>
+<h2 id="using-ip--required-same-network-environment">Using ip — required same network environment</h2>
+<p>The wireless debug is more tricky, the connection between android phone and computer is not related to wireless debug, is related to the same internet environment, when a device connects to a Wi-Fi network, it is assigned an IP address by the router. This IP address is unique to that device on the network and can be used to communicate with other devices on the same network.</p>
+<hr>
+<h2 id="port-forwarding--require-usb-connection">Port forwarding — require usb connection</h2>
+<p>The last one is Usb debug mode, in the page “chrome://inspect/#devices” , port forwarding is used to route traffic from a website or web application running on a connected device to the development machine running Google Chrome.</p>
+<p>However, even though I wrote port forwarding in USB mode, but using usb doesn’t impact ip solution, I prefer using ip more than using port forwarding.</p>
+<p><a href="https://developer.android.com/studio/run/emulator-networking">Android doc</a></p>
+
+          </article>
         </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div id="stickySideBar" class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#emulator--special-alias">Emulator — special alias</a></li>
+    <li><a href="#using-ip--required-same-network-environment">Using ip — required same network environment</a></li>
+    <li><a href="#port-forwarding--require-usb-connection">Port forwarding — require usb connection</a></li>
+  </ul>
+</nav>
+              </div>
+          </aside>
+          
+
+          
+          <aside class="tags">
+            <h5>Tags</h5>
+            <ul class="tags-ul list-unstyled list-inline">
+              
+              <li class="list-inline-item"><a href="https://kenny50.github.io/Blog/tags/android" target="_blank">Android</a></li>
+              
+              <li class="list-inline-item"><a href="https://kenny50.github.io/Blog/tags/emulator" target="_blank">Emulator</a></li>
+              
+            </ul>
+          </aside>
+          
+
+          
+          <aside class="social">
+            <h5>Social</h5>
+            <div class="social-content">
+              <ul class="list-inline">
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fkenny50.github.io%2fBlog%2fposts%2fdebugging-android-with-local-server%2f">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://twitter.com/share?text=Debugging%20Android%2c%20how%20to%20connect%20to%20local%20server&url=https%3a%2f%2fkenny50.github.io%2fBlog%2fposts%2fdebugging-android-with-local-server%2f">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=Debugging%20Android%2c%20how%20to%20connect%20to%20local%20server: https%3a%2f%2fkenny50.github.io%2fBlog%2fposts%2fdebugging-android-with-local-server%2f">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href='mailto:?subject=Debugging%20Android%2c%20how%20to%20connect%20to%20local%20server&amp;body=Check%20out%20this%20site https%3a%2f%2fkenny50.github.io%2fBlog%2fposts%2fdebugging-android-with-local-server%2f'>
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          
+        </div>
+      </div>
     </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
+<Script src="/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  
+  let stickySideBarElem = document.getElementById("stickySideBar");
+  let stickyNavBar =  false ;
+  if(stickyNavBar) {
+    let headerElem = document.getElementById("profileHeader");
+    let headerHeight = headerElem.offsetHeight + 15;
+    stickySideBarElem.style.top = headerHeight + "px";
+  } else {
+    stickySideBarElem.style.top = "50px";
+  }
+</script>
+
+
+<script src="/js/readingTime.js"></script>
+
+
 
   </div><footer>
     

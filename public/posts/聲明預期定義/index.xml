@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>聲明預期定義 on Hugo Profile yaml</title>
-    <link>https://hugo-profile.netlify.app/posts/%E8%81%B2%E6%98%8E%E9%A0%90%E6%9C%9F%E5%AE%9A%E7%BE%A9/</link>
+    <link>https://kenny50.github.io/Blog/posts/%E8%81%B2%E6%98%8E%E9%A0%90%E6%9C%9F%E5%AE%9A%E7%BE%A9/</link>
     <description>Recent content in 聲明預期定義 on Hugo Profile yaml</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://hugo-profile.netlify.app/posts/%E8%81%B2%E6%98%8E%E9%A0%90%E6%9C%9F%E5%AE%9A%E7%BE%A9/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kenny50.github.io/Blog/posts/%E8%81%B2%E6%98%8E%E9%A0%90%E6%9C%9F%E5%AE%9A%E7%BE%A9/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
