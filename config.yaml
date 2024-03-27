@@ -38,12 +38,12 @@ Menus:
     - identifier: travel
       name: Travel
       title: Travel
-      url: /Travel
+      url: /travel
       weight: 3
     - identifier: Cooking
       name: Cooking
       title: Cooking
-      url: /Cooking
+      url: /cooking
       weight: 4
 
 params:
