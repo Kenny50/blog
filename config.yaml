@@ -1,5 +1,4 @@
-baseURL: "https://kenny50.github.io/blog/"
-relativeURLs: true 
+baseURL: "https://kenny50.github.io/"
 
 languageCode: "en-us"
 title: "Hugo Profile yaml"
