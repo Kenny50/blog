@@ -1,4 +1,6 @@
 baseURL: "https://kenny50.github.io/Blog/"
+canonifyURLs: true 
+
 languageCode: "en-us"
 title: "Hugo Profile yaml"
 theme: hugo-profile
@@ -48,7 +50,7 @@ Menus:
 params:
   title: "張永翰"
   description: 數位漂泊中
-  staticPath: "https://kenny50.github.io/Blog/"  # The path to serve the static files from
+  # staticPath: ""  # The path to serve the static files from
   favicon: "https://lh3.googleusercontent.com/a/ACg8ocJdBkMHHg9SweA2gsH6kYGNG1hjwYK7yyWHESWZUd1Pgdo=s96-c"
   animate: true
 
