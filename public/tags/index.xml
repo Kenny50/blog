@@ -2,24 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Hugo Profile yaml</title>
-    <link>https://hugo-profile.netlify.app/tags/</link>
+    <link>https://kenny50.github.io/tags/</link>
     <description>Recent content in Tags on Hugo Profile yaml</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Mar 2024 12:46:55 +0800</lastBuildDate>
-    <atom:link href="https://hugo-profile.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Mar 2024 14:01:55 +0800</lastBuildDate>
+    <atom:link href="https://kenny50.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Android</title>
+      <link>https://kenny50.github.io/tags/android/</link>
+      <pubDate>Tue, 26 Mar 2024 14:01:55 +0800</pubDate>
+      <guid>https://kenny50.github.io/tags/android/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Emulator</title>
+      <link>https://kenny50.github.io/tags/emulator/</link>
+      <pubDate>Tue, 26 Mar 2024 14:01:55 +0800</pubDate>
+      <guid>https://kenny50.github.io/tags/emulator/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Effective Kotlin</title>
-      <link>https://hugo-profile.netlify.app/tags/effective-kotlin/</link>
+      <link>https://kenny50.github.io/tags/effective-kotlin/</link>
       <pubDate>Tue, 26 Mar 2024 12:46:55 +0800</pubDate>
-      <guid>https://hugo-profile.netlify.app/tags/effective-kotlin/</guid>
+      <guid>https://kenny50.github.io/tags/effective-kotlin/</guid>
       <description></description>
     </item>
     <item>
       <title>Kotlin</title>
-      <link>https://hugo-profile.netlify.app/tags/kotlin/</link>
+      <link>https://kenny50.github.io/tags/kotlin/</link>
       <pubDate>Tue, 26 Mar 2024 12:46:55 +0800</pubDate>
-      <guid>https://hugo-profile.netlify.app/tags/kotlin/</guid>
+      <guid>https://kenny50.github.io/tags/kotlin/</guid>
       <description></description>
     </item>
   </channel>

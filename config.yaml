@@ -1,4 +1,5 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://kenny50.github.io/"
+
 languageCode: "en-us"
 title: "Hugo Profile yaml"
 theme: hugo-profile
