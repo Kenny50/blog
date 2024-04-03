@@ -1,7 +1,7 @@
 baseURL: "https://kenny50.github.io/"
 
 languageCode: "en-us"
-title: "Hugo Profile yaml"
+title: "肯尼的數位流浪"
 theme: hugo-profile
 
 outputs:
@@ -26,7 +26,7 @@ markup:
 Menus:
   main:
     - identifier: blog
-      name: Blog
+      name: Tech-Blog
       title: Blog posts
       url: /posts
       weight: 1
@@ -35,10 +35,10 @@ Menus:
       title: Read
       url: /read
       weight: 2
-    - identifier: travel
-      name: Travel
-      title: Travel
-      url: /travel
+    - identifier: digital-nomad
+      name: Digital-Nomad
+      title: Digital-Nomad
+      url: /digital-nomad
       weight: 3
     - identifier: Cooking
       name: Cooking
@@ -47,7 +47,7 @@ Menus:
       weight: 4
 
 params:
-  title: "張永翰"
+  title: "肯尼的數位流浪"
   description: 數位漂泊中
   # staticPath: ""  # The path to serve the static files from
   favicon: "https://lh3.googleusercontent.com/a/ACg8ocJdBkMHHg9SweA2gsH6kYGNG1hjwYK7yyWHESWZUd1Pgdo=s96-c"
@@ -65,7 +65,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "https://lh3.googleusercontent.com/a/ACg8ocJdBkMHHg9SweA2gsH6kYGNG1hjwYK7yyWHESWZUd1Pgdo=s96-c"
+    image: "https://avatars.githubusercontent.com/u/65593417?v=4"
     content: |-
       三年軟體工程師，熟悉 Android, Kotlin，也寫 NodeJS，發現後端的坑有夠大．
 
