@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head><meta charset="UTF-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
@@ -31,7 +31,7 @@
 <meta property="og:title" content="Digital-Nomads" />
 <meta property="og:description" content="數位漂泊中" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://kenny50.github.io/digital-nomad/" /><meta property="og:site_name" content="肯尼的數位流浪" />
+<meta property="og:url" content="http://localhost:1313/digital-nomad/" /><meta property="og:site_name" content="肯尼的數位流浪" />
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Digital-Nomads"/>
 <meta name="twitter:description" content="數位漂泊中"/>
@@ -307,17 +307,18 @@ Digital-Nomads | 肯尼的數位流浪
             <div class="card h-100">
                 
                 <div class="card-body bg-transparent p-3 shadow-sm">
-                    <a href="/posts/debugging-android-with-local-server/" class="primary-font card-title">
-                        <h5 class="card-title bg-transparent" title="Debugging Android, how to connect to local server">Debugging Android, how to …</h5>
+                    <a href="/articles/digital-nomad/intro-of-digital-nomad-in-malaysia/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Intro of digital nomad in Malaysia">Intro of digital nomad in …</h5>
                     </a>
                     <div class="card-text secondary-font">
-                        <p>TL;DR port is same as server defined, the key is change to ip address
-emulator — 10.0.2.2 Using ip — (required same network environment) type ifconfig | grep &ldquo;inet &ldquo;| grep -v 127.0.0.1 in terminal, copy something like 192.168.0.7 Port forwarding — (require usb connection) open …</p>
+                        <p>馬來西亞數位遊牧(ㄧ) 馬來西亞，其實並不是一個熱門的數位遊牧目的地，這次有緣在馬來西亞嘗試數位遊牧，主要原因是我的好友舉辦婚禮，我過去當伴郎，才有了這個機會，儘管如此，我依然在大馬留下很棒的回憶，總體來說，以數位遊牧為重心的人，可以選在待在吉隆坡，以遠端工作和文化體驗的，我建議待在檳城，若是非常喜歡自然景觀、冒險體驗的，可以嘗試東馬
+網路 馬來西亞的基礎網路設備在都市都算完善，但還是建議一定要有網路 sim 卡，以我個人的住宿為例，該空間有出現平常日但 WiFi 服務有問題，無法使用的狀況，後來是請外部廠商來進行維修，不論出門在外還是臨時狀況，有網路就多一份保障
+住宿 經過友人的推薦，我最後 …</p>
                     </div>
                 </div>
                 <div class="mt-auto card-footer">
-                    <span class="float-start">March 26, 2024</span>
-                    <a href="/posts/debugging-android-with-local-server/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    <span class="float-start">April 3, 2024</span>
+                    <a href="/articles/digital-nomad/intro-of-digital-nomad-in-malaysia/" class="float-end btn btn-outline-info btn-sm">Read</a>
                 </div>
             </div>
         </div>
@@ -326,17 +327,45 @@ emulator — 10.0.2.2 Using ip — (required same network environment) type ifco
             <div class="card h-100">
                 
                 <div class="card-body bg-transparent p-3 shadow-sm">
-                    <a href="/posts/%E8%81%B2%E6%98%8E%E9%A0%90%E6%9C%9F%E5%AE%9A%E7%BE%A9/" class="primary-font card-title">
-                        <h5 class="card-title bg-transparent" title="聲明預期定義">聲明預期定義</h5>
+                    <a href="/articles/read/%E5%A5%BD%E7%AD%96%E7%95%A5%E5%A3%9E%E7%AD%96%E7%95%A5%E7%AC%AC%E4%B8%80%E7%AB%A0/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="好策略壞策略第一章">好策略壞策略第一章</h5>
                     </a>
                     <div class="card-text secondary-font">
-                        <p>聲明預期定義 require, assert, check, elvis 對參數或狀態，應儘早聲明預期結果 儘管這些聲明，無法讓我們不必寫文件，但他仍讓開發者享有幾個好處
-對不看文件、註解的協同開發者，預期結果仍會被看見 如果不符合預期，對丟出 exception 而不是有預期之外的行為 儘早聲明預期，確保在修改任何內容前就 throw exception ，以免一些操作執行、一些未執行，導致不一致的情況 程式碼在某種程度上會自我檢查，可不那麼依賴於測試來保證邏輯正確性 儘管放在function body 前段，讓其他開發者更容易看到，但並非每個開發者都會讀 source code ，所以還是 …</p>
+                        <p>好策略壞策略 第一章 好策略應該聚焦，不僅是策略和目標聚焦，且團隊必須有有相同聚焦的行為和目標，好策略必須具備有意願，有能力明鑑情勢，獨排眾議，向各種利益說不的領導者
+而壞策略經常出現在
+意圖兼顧相互衝突的目標 將資源投入彼此衝突的目標 考慮難以兼得的利益 記住！！做跟不做，都是一種策略
+在軟體專案中，也可以察覺中蛛絲馬跡，在某些專案內會出現多頭火車的情況，也就是多個主管對這個專案都有決定權，而這些主管並不會事前溝通，而 PM 或是開發團隊，也會在溝通上的時間差，最終導致同時開出了功能相反或相互矛盾的需求
+比方說，行銷主管認為快速變現是最重要的，用戶體驗、穩定性、安全性優先度都不高，要求團隊縮 …</p>
                     </div>
                 </div>
                 <div class="mt-auto card-footer">
-                    <span class="float-start">March 26, 2024</span>
-                    <a href="/posts/%E8%81%B2%E6%98%8E%E9%A0%90%E6%9C%9F%E5%AE%9A%E7%BE%A9/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    <span class="float-start">April 3, 2024</span>
+                    <a href="/articles/read/%E5%A5%BD%E7%AD%96%E7%95%A5%E5%A3%9E%E7%AD%96%E7%95%A5%E7%AC%AC%E4%B8%80%E7%AB%A0/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/articles/cooking/%E8%A5%BF%E5%BC%8F%E9%AB%98%E6%B9%AF/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="西式高湯">西式高湯</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p>概念上來說，某種動物＋某種植物＿大量的水
+植物 洋蔥、西芹、胡蘿蔔 蒜 蔥頭 肉類 液體量的 10 % 雞翅膀：蛋白質、膠質、脂肪(optional) 高壓鍋作法： 用高溫焦化做褐色高湯，因為動物普遍沒有很多“可焦化物”，可以加點奶粉，同時補充另外一層蛋白質
+雞翅＋奶粉，過粉後放入鍋內翻炒至焦化，之後加水
+可以加酵母粉同時翻炒至焦化代替蘑菇，當然也可以用蘑菇，重點是做出蘑菇焦化的香味
+之後高壓鍋 30~45 分鐘，燉鍋就慢慢燉
+傳統做法： 雞翅雞骨架＋血水倒入鍋中＋洋蔥、西芹、胡蘿蔔＋香料束（百里香＋月桂葉＋丁香&hellip;）
+撇掉白沫（水性蛋白）
+烤骨高湯： 牛骨或任意骨頭＋大量的蒜＋芹 …</p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">March 27, 2024</span>
+                    <a href="/articles/cooking/%E8%A5%BF%E5%BC%8F%E9%AB%98%E6%B9%AF/" class="float-end btn btn-outline-info btn-sm">Read</a>
                 </div>
             </div>
         </div>
@@ -395,7 +424,7 @@ emulator — 10.0.2.2 Using ip — (required same network environment) type ifco
     <div class="row justify-content-center">
         <div class="col-md-4 text-center">
             <div class="pb-2">
-                <a href="https://kenny50.github.io/" title="肯尼的數位流浪">
+                <a href="http://localhost:1313/" title="肯尼的數位流浪">
                     <img alt="Footer logo" src="https://lh3.googleusercontent.com/a/ACg8ocJdBkMHHg9SweA2gsH6kYGNG1hjwYK7yyWHESWZUd1Pgdo=s96-c"
                         height="40px" width="40px">
                 </a>

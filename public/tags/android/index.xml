@@ -10,9 +10,9 @@
     <atom:link href="https://kenny50.github.io/tags/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Debugging Android, how to connect to local server</title>
-      <link>https://kenny50.github.io/posts/debugging-android-with-local-server/</link>
+      <link>https://kenny50.github.io/articles/posts/debugging-android-with-local-server/</link>
       <pubDate>Tue, 26 Mar 2024 14:01:55 +0800</pubDate>
-      <guid>https://kenny50.github.io/posts/debugging-android-with-local-server/</guid>
+      <guid>https://kenny50.github.io/articles/posts/debugging-android-with-local-server/</guid>
       <description>TL;DR port is same as server defined, the key is change to ip address&#xA;emulator — 10.0.2.2 Using ip — (required same network environment) type ifconfig | grep &amp;ldquo;inet &amp;ldquo;| grep -v 127.0.0.1 in terminal, copy something like 192.168.0.7 Port forwarding — (require usb connection) open chrome://inspect/#devices in chrome, check remote target detected your device, setup port forwarding like port: 9999 ipaddress and port : 127.0.0.1:9999 Emulator — special alias We have to connect to different ip while we tested our android in a different environment with a local server.</description>
     </item>
   </channel>
