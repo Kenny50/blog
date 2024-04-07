@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>聲明預期定義 on 肯尼的數位流浪</title>
-    <link>http://localhost:1313/posts/%E8%81%B2%E6%98%8E%E9%A0%90%E6%9C%9F%E5%AE%9A%E7%BE%A9/</link>
-    <description>Recent content in 聲明預期定義 on 肯尼的數位流浪</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/%E8%81%B2%E6%98%8E%E9%A0%90%E6%9C%9F%E5%AE%9A%E7%BE%A9/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>聲明預期定義 on 肯尼的數位流浪</title><link>https://kenny50.github.io/posts/%E8%81%B2%E6%98%8E%E9%A0%90%E6%9C%9F%E5%AE%9A%E7%BE%A9/</link><description>Recent content in 聲明預期定義 on 肯尼的數位流浪</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate/><atom:link href="https://kenny50.github.io/posts/%E8%81%B2%E6%98%8E%E9%A0%90%E6%9C%9F%E5%AE%9A%E7%BE%A9/index.xml" rel="self" type="application/rss+xml"/></channel></rss>

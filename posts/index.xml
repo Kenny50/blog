@@ -1,26 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on 肯尼的數位流浪</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on 肯尼的數位流浪</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 26 Mar 2024 14:01:55 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Debugging Android, how to connect to local server</title>
-      <link>http://localhost:1313/posts/debugging-android-with-local-server/</link>
-      <pubDate>Tue, 26 Mar 2024 14:01:55 +0800</pubDate>
-      <guid>http://localhost:1313/posts/debugging-android-with-local-server/</guid>
-      <description>TL;DR port is same as server defined, the key is change to ip address&#xA;emulator — 10.0.2.2 Using ip — (required same network environment) type ifconfig | grep &amp;ldquo;inet &amp;ldquo;| grep -v 127.0.0.1 in terminal, copy something like 192.168.0.7 Port forwarding — (require usb connection) open chrome://inspect/#devices in chrome, check remote target detected your device, setup port forwarding like port: 9999 ipaddress and port : 127.0.0.1:9999 Emulator — special alias We have to connect to different ip while we tested our android in a different environment with a local server.</description>
-    </item>
-    <item>
-      <title>聲明預期定義</title>
-      <link>http://localhost:1313/posts/%E8%81%B2%E6%98%8E%E9%A0%90%E6%9C%9F%E5%AE%9A%E7%BE%A9/</link>
-      <pubDate>Tue, 26 Mar 2024 12:46:55 +0800</pubDate>
-      <guid>http://localhost:1313/posts/%E8%81%B2%E6%98%8E%E9%A0%90%E6%9C%9F%E5%AE%9A%E7%BE%A9/</guid>
-      <description>聲明預期定義 require, assert, check, elvis 對參數或狀態，應儘早聲明預期結果 儘管這些聲明，無法讓我們不必寫文件，但他仍讓開發者享有幾個好處&#xA;對不看文件、註解的協同開發者，預期結果仍會被看見 如果不符合預期，對丟出 exception 而不是有預期之外的行為 儘早聲明預期，確保在修改任何內容前就 throw exception ，以免一些操作執行、一些未執行，導致不一致的情況 程式碼在某種程度上會自我檢查，可不那麼依賴於測試來保證邏輯正確性 儘管放在function body 前段，讓其他開發者更容易看到，但並非每個開發者都會讀 source code ，所以還是得把 require, check 寫在註解裡&#xA;make them more visible protect your application stability protect your code correctness smart cast variable require 當函式傳入參數時，通常會有在某些條件下參數才能執行的情況&#xA;針對傳入參數，呼叫 require&#xA;fun demoRequire(int:Int) { require(int &amp;gt; 0){ &amp;#34;int is smaller than 0&amp;#34; } } throw IllegalArgumentException&#xA;check 確保某些狀態，用於 class 內狀態變數，通常擺在 require後&#xA;class DemoAssert(){ private var isOpen = false fun demoCheck(){ check(isOpen){ &amp;#34;is not open for now&amp;#34; } } } throw IllegalStateException</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 肯尼的數位流浪</title><link>https://kenny50.github.io/posts/</link><description>Recent content in Posts on 肯尼的數位流浪</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 26 Mar 2024 14:01:55 +0800</lastBuildDate><atom:link href="https://kenny50.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Debugging Android, how to connect to local server</title><link>https://kenny50.github.io/posts/debugging-android-with-local-server/</link><pubDate>Tue, 26 Mar 2024 14:01:55 +0800</pubDate><guid>https://kenny50.github.io/posts/debugging-android-with-local-server/</guid><description>TL;DR port is same as server defined, the key is change to ip address
+emulator — 10.0.2.2 Using ip — (required same network environment) type ifconfig | grep &amp;ldquo;inet &amp;ldquo;| grep -v 127.0.0.1 in terminal, copy something like 192.168.0.7 Port forwarding — (require usb connection) open chrome://inspect/#devices in chrome, check remote target detected your device, setup port forwarding like port: 9999 ipaddress and port : 127.0.0.1:9999 Emulator — special alias We have to connect to different ip while we tested our android in a different environment with a local server.</description></item><item><title>聲明預期定義</title><link>https://kenny50.github.io/posts/%E8%81%B2%E6%98%8E%E9%A0%90%E6%9C%9F%E5%AE%9A%E7%BE%A9/</link><pubDate>Tue, 26 Mar 2024 12:46:55 +0800</pubDate><guid>https://kenny50.github.io/posts/%E8%81%B2%E6%98%8E%E9%A0%90%E6%9C%9F%E5%AE%9A%E7%BE%A9/</guid><description>聲明預期定義 require, assert, check, elvis 對參數或狀態，應儘早聲明預期結果 儘管這些聲明，無法讓我們不必寫文件，但他仍讓開發者享有幾個好處
+對不看文件、註解的協同開發者，預期結果仍會被看見 如果不符合預期，對丟出 exception 而不是有預期之外的行為 儘早聲明預期，確保在修改任何內容前就 throw exception ，以免一些操作執行、一些未執行，導致不一致的情況 程式碼在某種程度上會自我檢查，可不那麼依賴於測試來保證邏輯正確性 儘管放在function body 前段，讓其他開發者更容易看到，但並非每個開發者都會讀 source code ，所以還是得把 require, check 寫在註解裡
+make them more visible protect your application stability protect your code correctness smart cast variable require 當函式傳入參數時，通常會有在某些條件下參數才能執行的情況
+針對傳入參數，呼叫 require
+fun demoRequire(int:Int) { require(int &amp;gt; 0){ &amp;#34;int is smaller than 0&amp;#34; } } throw IllegalArgumentException
+check 確保某些狀態，用於 class 內狀態變數，通常擺在 require後
+class DemoAssert(){ private var isOpen = false fun demoCheck(){ check(isOpen){ &amp;#34;is not open for now&amp;#34; } } } throw IllegalStateException</description></item></channel></rss>
