@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Articles on 肯尼的數位流浪</title>
-    <link>https://kenny50.github.io/articles/</link>
+    <link>http://localhost:1313/articles/</link>
     <description>Recent content in Articles on 肯尼的數位流浪</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 03 Apr 2024 11:00:55 +0800</lastBuildDate>
-    <atom:link href="https://kenny50.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/articles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Intro of digital nomad in Malaysia</title>
-      <link>https://kenny50.github.io/articles/digital-nomad/intro-of-digital-nomad-in-malaysia/</link>
+      <link>http://localhost:1313/articles/digital-nomad/intro-of-digital-nomad-in-malaysia/</link>
       <pubDate>Wed, 03 Apr 2024 11:00:55 +0800</pubDate>
-      <guid>https://kenny50.github.io/articles/digital-nomad/intro-of-digital-nomad-in-malaysia/</guid>
+      <guid>http://localhost:1313/articles/digital-nomad/intro-of-digital-nomad-in-malaysia/</guid>
       <description>&lt;p&gt;馬來西亞，其實並不是對台灣數位遊牧者熱門的一個目的地，這次有緣在馬來西亞嘗試數位遊牧，主要原因是我的好友舉辦婚禮，我過去當伴郎，才有了這個機會，儘管如此，我依然在大馬留下很棒的回憶，總體來說，以數位遊牧為重心的人，可以選在待在吉隆坡，以遠端工作和文化體驗的，我建議待在檳城，若是非常喜歡自然景觀、冒險體驗的，可以嘗試東馬&lt;/p&gt;</description>
     </item>
     <item>
       <title>好策略壞策略第一章</title>
-      <link>https://kenny50.github.io/articles/read/%E5%A5%BD%E7%AD%96%E7%95%A5%E5%A3%9E%E7%AD%96%E7%95%A5%E7%AC%AC%E4%B8%80%E7%AB%A0/</link>
+      <link>http://localhost:1313/articles/read/%E5%A5%BD%E7%AD%96%E7%95%A5%E5%A3%9E%E7%AD%96%E7%95%A5%E7%AC%AC%E4%B8%80%E7%AB%A0/</link>
       <pubDate>Wed, 03 Apr 2024 11:00:55 +0800</pubDate>
-      <guid>https://kenny50.github.io/articles/read/%E5%A5%BD%E7%AD%96%E7%95%A5%E5%A3%9E%E7%AD%96%E7%95%A5%E7%AC%AC%E4%B8%80%E7%AB%A0/</guid>
+      <guid>http://localhost:1313/articles/read/%E5%A5%BD%E7%AD%96%E7%95%A5%E5%A3%9E%E7%AD%96%E7%95%A5%E7%AC%AC%E4%B8%80%E7%AB%A0/</guid>
       <description>&lt;p&gt;好策略的特點是聚焦、協調一致，而壞策略的特點則是矛盾的目標，記住，做與不做都是一種策略&lt;/p&gt;</description>
     </item>
     <item>
       <title>西式高湯</title>
-      <link>https://kenny50.github.io/articles/cooking/%E8%A5%BF%E5%BC%8F%E9%AB%98%E6%B9%AF/</link>
+      <link>http://localhost:1313/articles/cooking/%E8%A5%BF%E5%BC%8F%E9%AB%98%E6%B9%AF/</link>
       <pubDate>Wed, 27 Mar 2024 22:19:55 +0800</pubDate>
-      <guid>https://kenny50.github.io/articles/cooking/%E8%A5%BF%E5%BC%8F%E9%AB%98%E6%B9%AF/</guid>
+      <guid>http://localhost:1313/articles/cooking/%E8%A5%BF%E5%BC%8F%E9%AB%98%E6%B9%AF/</guid>
       <description>&lt;p&gt;概念上來說，某種動物＋某種植物＋大量的水&lt;/p&gt;</description>
     </item>
     <item>
       <title>Debugging Android, how to connect to local server</title>
-      <link>https://kenny50.github.io/articles/posts/debugging-android-with-local-server/</link>
+      <link>http://localhost:1313/articles/posts/debugging-android-with-local-server/</link>
       <pubDate>Tue, 26 Mar 2024 14:01:55 +0800</pubDate>
-      <guid>https://kenny50.github.io/articles/posts/debugging-android-with-local-server/</guid>
+      <guid>http://localhost:1313/articles/posts/debugging-android-with-local-server/</guid>
       <description>TL;DR port is same as server defined, the key is change to ip address&#xA;emulator — 10.0.2.2 Using ip — (required same network environment) type ifconfig | grep &amp;ldquo;inet &amp;ldquo;| grep -v 127.0.0.1 in terminal, copy something like 192.168.0.7 Port forwarding — (require usb connection) open chrome://inspect/#devices in chrome, check remote target detected your device, setup port forwarding like port: 9999 ipaddress and port : 127.0.0.1:9999 Emulator — special alias We have to connect to different ip while we tested our android in a different environment with a local server.</description>
     </item>
     <item>
       <title>聲明預期定義</title>
-      <link>https://kenny50.github.io/articles/posts/%E8%81%B2%E6%98%8E%E9%A0%90%E6%9C%9F%E5%AE%9A%E7%BE%A9/</link>
+      <link>http://localhost:1313/articles/posts/%E8%81%B2%E6%98%8E%E9%A0%90%E6%9C%9F%E5%AE%9A%E7%BE%A9/</link>
       <pubDate>Tue, 26 Mar 2024 12:46:55 +0800</pubDate>
-      <guid>https://kenny50.github.io/articles/posts/%E8%81%B2%E6%98%8E%E9%A0%90%E6%9C%9F%E5%AE%9A%E7%BE%A9/</guid>
+      <guid>http://localhost:1313/articles/posts/%E8%81%B2%E6%98%8E%E9%A0%90%E6%9C%9F%E5%AE%9A%E7%BE%A9/</guid>
       <description>聲明預期定義 require, assert, check, elvis 對參數或狀態，應儘早聲明預期結果 儘管這些聲明，無法讓我們不必寫文件，但他仍讓開發者享有幾個好處&#xA;對不看文件、註解的協同開發者，預期結果仍會被看見 如果不符合預期，對丟出 exception 而不是有預期之外的行為 儘早聲明預期，確保在修改任何內容前就 throw exception ，以免一些操作執行、一些未執行，導致不一致的情況 程式碼在某種程度上會自我檢查，可不那麼依賴於測試來保證邏輯正確性 儘管放在function body 前段，讓其他開發者更容易看到，但並非每個開發者都會讀 source code ，所以還是得把 require, check 寫在註解裡&#xA;make them more visible protect your application stability protect your code correctness smart cast variable require 當函式傳入參數時，通常會有在某些條件下參數才能執行的情況&#xA;針對傳入參數，呼叫 require&#xA;fun demoRequire(int:Int) { require(int &amp;gt; 0){ &amp;#34;int is smaller than 0&amp;#34; } } throw IllegalArgumentException&#xA;check 確保某些狀態，用於 class 內狀態變數，通常擺在 require後&#xA;class DemoAssert(){ private var isOpen = false fun demoCheck(){ check(isOpen){ &amp;#34;is not open for now&amp;#34; } } } throw IllegalStateException</description>
     </item>
   </channel>
