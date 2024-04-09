@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kenny50.github.io/tags/ai/</loc>
+    <lastmod>2024-04-08T14:40:55+08:00</lastmod>
+  </url><url>
+    <loc>https://kenny50.github.io/read/ai%E5%B8%B6%E4%BE%86%E7%9A%84%E6%95%B8%E4%BD%8D%E9%9D%A9%E5%91%BD/</loc>
+    <lastmod>2024-04-08T14:40:55+08:00</lastmod>
+  </url><url>
+    <loc>https://kenny50.github.io/read/</loc>
+    <lastmod>2024-04-08T14:40:55+08:00</lastmod>
+  </url><url>
+    <loc>https://kenny50.github.io/tags/</loc>
+    <lastmod>2024-04-08T14:40:55+08:00</lastmod>
+  </url><url>
+    <loc>https://kenny50.github.io/tags/%E4%BA%BA%E6%89%8D%E5%83%B9%E5%80%BC/</loc>
+    <lastmod>2024-04-08T14:40:55+08:00</lastmod>
+  </url><url>
+    <loc>https://kenny50.github.io/</loc>
+    <lastmod>2024-04-08T14:40:55+08:00</lastmod>
+  </url><url>
+    <loc>https://kenny50.github.io/draft/</loc>
+    <lastmod>2024-04-07T23:10:55+08:00</lastmod>
+  </url><url>
     <loc>https://kenny50.github.io/tags/read/</loc>
     <lastmod>2024-04-07T10:54:55+08:00</lastmod>
   </url><url>
-    <loc>https://kenny50.github.io/read/</loc>
-    <lastmod>2024-04-07T10:54:55+08:00</lastmod>
-  </url><url>
-    <loc>https://kenny50.github.io/tags/</loc>
-    <lastmod>2024-04-07T10:54:55+08:00</lastmod>
-  </url><url>
     <loc>https://kenny50.github.io/tags/%E5%A5%BD%E7%AD%96%E7%95%A5%E5%A3%9E%E7%AD%96%E7%95%A5/</loc>
-    <lastmod>2024-04-07T10:54:55+08:00</lastmod>
-  </url><url>
-    <loc>https://kenny50.github.io/</loc>
     <lastmod>2024-04-07T10:54:55+08:00</lastmod>
   </url><url>
     <loc>https://kenny50.github.io/read/%E5%A5%BD%E7%AD%96%E7%95%A5%E5%A3%9E%E7%AD%96%E7%95%A5%E7%AC%AC%E4%BA%8C%E7%AB%A0/</loc>
@@ -76,9 +88,6 @@
   </url><url>
     <loc>https://kenny50.github.io/posts/%E8%81%B2%E6%98%8E%E9%A0%90%E6%9C%9F%E5%AE%9A%E7%BE%A9/</loc>
     <lastmod>2024-03-26T12:46:55+08:00</lastmod>
-  </url><url>
-    <loc>https://kenny50.github.io/draft/</loc>
-    <lastmod>2024-03-26T11:50:55+08:00</lastmod>
   </url><url>
     <loc>https://kenny50.github.io/categories/</loc>
   </url>
