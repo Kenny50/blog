@@ -62,6 +62,32 @@ params:
       disableAchievements: true
       disableContact: true
 
+  hero:
+    enable: true
+    intro: ""
+    title: "公司籌備中..."
+    subtitle: "軟體服務、數位轉型"
+    content: "網頁、後端、AI、APP 全方位的團隊支援，從商業需求到落地應用，為目標制定最合適的解決方案"
+    image: /images/hero.svg
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: true
+      name: "網站連結"
+      url: "https://www.jinyufeng.com.tw/"
+      download: false
+      newPage: true
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/Kenny50
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/yh-c/
+      # customIcons:
+      #   - icon: /fav.png
+      #     url: "https://example.com"
+
   about:
     enable: true
     title: "About Me"
