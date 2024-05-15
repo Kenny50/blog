@@ -62,6 +62,32 @@ params:
       disableAchievements: true
       disableContact: true
 
+  hero:
+    enable: true
+    intro: ""
+    title: "公司籌備中..."
+    subtitle: "軟體服務、數位轉型"
+    content: "網頁、後端、AI、APP 全方位的團隊支援，從商業需求到落地應用，為目標制定最合適的解決方案"
+    image: /images/hero.svg
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: true
+      name: "網站連結"
+      url: "https://www.jinyufeng.com.tw/"
+      download: false
+      newPage: true
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/Kenny50
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/yh-c/
+      # customIcons:
+      #   - icon: /fav.png
+      #     url: "https://example.com"
+
   about:
     enable: true
     title: "About Me"
@@ -84,7 +110,7 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: 隨時開放，無論你有問題還是只是想打聲招呼，我都會盡力回覆你！如果幾個工作日內沒收到回覆，可以再嘗試重寄
     btnName: Mail me
     btnLink: mailto:yunghancareer@gmail.com
 
@@ -92,13 +118,34 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: 技術分享
+      - title: 主講Ｘ技術分享
         content: 為你的專案加點模組化
         url: https://gdg.community.dev/events/details/google-gdg-kaohsiung-presents-devfest-kaohsiung-tainan-2022/
-        # image: /images/achievment.jpg
-      - title: 技術分享
+        image: https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/DF22-Bevy-EventThumb%402x_gIPRNwd.png
+      - title: 主講Ｘ技術分享
         content: Coroutine 在 Android 的應用
         url: https://gdg.community.dev/events/details/google-gdg-tainan-presents-coroutinezai-androidde-ying-yong/
+        image: https://res.cloudinary.com/startup-grind/image/fetch/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/https://res.cloudinary.com/startup-grind/image/upload/c_fill%2Cdpr_2.0%2Cf_auto%2Cg_center%2Cq_auto:good/v1/gcs/platform-data-goog/event_banners/gdev-eccosystems-bevy-chapters-thumbnail_D0AYZGY.png
+      - title: 協辦Ｘ台南 Google Developer Group
+        content: Build with AI
+        url: https://gdg.community.dev/events/details/google-gdg-tainan-presents-cong-ren-shi-dao-shi-zhan-genai-ji-chu-jie-shao-dao-lun-build-with-ai-tainan/
+        image: https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/Copy%20of%20GDG24-BwAI-DevBadge-Participant_3PbEOXy.png
+      - title: 協辦Ｘ台南 && 台北 Google Developer Group
+        content: 用 Gemini API + RAG 打造會LINE 貼圖的聊天機器人 | Build with AI Taipei x Tainan
+        url: https://gdg.community.dev/events/details/google-gdg-tainan-presents-yong-gemini-api-rag-da-zao-hui-line-tie-tu-de-liao-tian-ji-qi-ren-build-with-ai-taipei-x-tainan/
+        image: https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/Copy%20of%20GDG24-BwAI-DevBadge-Participant_3PbEOXy.png
+      - title: 協辦Ｘ台南 Google Developer Group
+        content: 從認識到實戰 - Gemini 開發工具介紹 | Build with AI Tainan
+        url: https://gdg.community.dev/events/details/google-gdg-tainan-presents-cong-ren-shi-dao-shi-zhan-gemini-kai-fa-gong-ju-jie-shao-build-with-ai-tainan/
+        image: https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/Copy%20of%20GDG24-BwAI-DevBadge-Participant_3PbEOXy.png
+      - title: 協辦Ｘ台南 Google Developer Group
+        content: 從認識到實戰 - Prompt Engineering & GenAI 應用情境介紹 | Build with AI Tainan
+        url: https://gdg.community.dev/events/details/google-gdg-tainan-presents-cong-ren-shi-dao-shi-zhan-prompt-engineering-amp-genai-ying-yong-qing-jing-jie-shao-build-with-ai-tainan/
+        image: https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/Copy%20of%20GDG24-BwAI-DevBadge-Participant_3PbEOXy.png
+      - title: 協辦Ｘ台南 Google Developer Group
+        content: 從認識到實戰 - Gemini 結合各種 API 應用 | Build with AI Tainan
+        url: https://gdg.community.dev/events/details/google-gdg-tainan-presents-cong-ren-shi-dao-shi-zhan-gemini-jie-he-ge-zhong-api-ying-yong-build-with-ai-tainan/
+        image: https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/Copy%20of%20GDG24-BwAI-DevBadge-Participant_3PbEOXy.png
 
   projects:
     enable: true
@@ -106,10 +153,10 @@ params:
     items:
       - title: 金玉峰投顧 - 訂閱制內容平台
         content: 依照會員層級，限制可閱讀內容權限，針對月、季、年推出不同訂閱方案，並在因應法規、公司流程以及金流服務的權衡之下，為客戶找出合適解法
-        image: https://staging-jinyufeng-file-bucket.s3.ap-northeast-1.amazonaws.com/article/213e046d-f9aa-4ccd-bf65-a3933f91730a
+        image: https://prod.jinyufeng.com.tw/assets/background-d69e2ba2.png
         featured:
           name: Demo
-          link: https://jinyufeng-staging.jinyufeng.com.tw/
+          link: https://prod.jinyufeng.com.tw/
         badges:
           - "Node"
           - "Express"
