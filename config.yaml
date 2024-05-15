@@ -68,14 +68,14 @@ params:
     title: "公司籌備中..."
     subtitle: "軟體服務、數位轉型"
     content: "網頁、後端、AI、APP 全方位的團隊支援，從商業需求到落地應用，為目標制定最合適的解決方案"
-    image: /images/hero.svg
+    image: /images/bc.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "網站連結"
-      url: "https://www.jinyufeng.com.tw/"
+      url: ""
       download: false
       newPage: true
     socialLinks:
@@ -93,7 +93,7 @@ params:
     title: "About Me"
     image: "https://avatars.githubusercontent.com/u/65593417?v=4"
     content: |-
-      三年軟體工程師，熟悉 Android, Kotlin，也寫 NodeJS，接案的經歷讓我更能兼顧技術和商業目標
+      自由接案者、軟體工程師，熟悉 Android, Kotlin, NodeJS，接案的經歷讓我更能兼顧技術和商業目標
 
       個性喜歡交流，舉辦過 Effective Kotlin 線上讀書會  ，線下活動和 GDG Tainan 推廣過 Jetpack compose，也在多場技術活動擔任志工以及分享者，架過線上版的 Kotlin IDE ，來解決活動中沒 Intellij 的參與者或是線上運行的  Code sample 
     skills:
