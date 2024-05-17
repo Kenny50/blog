@@ -47,8 +47,8 @@ Menus:
       weight: 4
 
 params:
-  title: "肯尼的數位流浪"
-  description: 數位漂泊中
+  title: "Ken Chang"
+  description: 數位遊牧
   # staticPath: ""  # The path to serve the static files from
   favicon: "https://lh3.googleusercontent.com/a/ACg8ocJdBkMHHg9SweA2gsH6kYGNG1hjwYK7yyWHESWZUd1Pgdo=s96-c"
   animate: true
@@ -64,7 +64,7 @@ params:
 
   hero:
     enable: true
-    intro: ""
+    intro: "目前和好想工作室長期合作"
     title: "公司籌備中..."
     subtitle: "軟體服務、數位轉型"
     content: "網頁、後端、AI、APP 全方位的團隊支援，從商業需求到落地應用，為目標制定最合適的解決方案"
