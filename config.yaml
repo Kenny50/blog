@@ -1,7 +1,7 @@
 baseURL: "https://kenny50.github.io/"
 
 languageCode: "en-us"
-title: "肯尼的數位流浪"
+title: "KenCiao 數位"
 theme: hugo-profile
 
 outputs:
