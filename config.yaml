@@ -65,7 +65,7 @@ params:
   hero:
     enable: true
     intro: "目前和好想工作室長期合作"
-    title: "公司籌備中..."
+    title: "CiaoDigi 公司網站建置中"
     subtitle: "軟體服務、數位轉型"
     content: "網頁、後端、AI、APP 全方位的團隊支援，從商業需求到落地應用，為目標制定最合適的解決方案"
     image: /images/bc.png
